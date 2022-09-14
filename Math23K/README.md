@@ -43,3 +43,6 @@ Math23K is a dataset created for math word problem solving, contains 23, 162 **C
 - `train_val_test` is further divided on the basis of `train_test`, and `train_val_test` divides `train_test`'s training set into training set and validation set (`train_val_test`'s test set is the same as `train_test`'s test set). The training set in `train_val_test` contains 21, 162 problems, the validation set contains 1, 000 problems, and the test set also has 1, 000 problems.
 - `5-fold` is obtained from the original complete dataset by quintiles, which means that each test set in `5-fold` is about 20% the size of the original dataset, and the union of all test sets is the original dataset.
 
+##  Leaderboard
+
+https://paperswithcode.com/sota/math-word-problem-solving-on-math23k.
